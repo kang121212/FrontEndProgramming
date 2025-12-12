@@ -1,0 +1,63 @@
+/* 폰트, 여백 설정 */
+body{
+    font-family: 'malgun Gothic', sans-serif;
+    padding: 20px;
+}
+
+/* 박스 틀 */
+.container{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px; 
+    margin-top: 10px;
+}
+
+/*단어 들어가는 박스 */
+.box{
+    background-color: azure;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    min-height: 80px;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px; 
+}
+
+/* 정답칸 색*/
+#answerBox{
+    border-color: green;
+    background-color: darkgrey;
+}
+
+/* 단어 카드*/
+.word-card{
+    background-color: skyblue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.overBox{
+    border: 3px solid red;
+    background-color: chocolate;
+}
+
+.overCard{
+    opacity: 0.5; 
+    border: 2px dashed red;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

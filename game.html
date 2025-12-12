@@ -1,0 +1,36 @@
+<!-- 깃허브 주소 : https://github.com/kang121212/FrontEndProgramming.git -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기말과제 : 영어 문장 맞추기</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="./jquery-3.7.1.js"></script>
+    <script src="game.js"></script>
+</head>
+<body>
+    <h1>영어 문장 맞추기 게임</h1>
+    <hr>
+    <div id = "questionArea">
+        <h3>문제 : <span id = "korText"></span></h3>
+        <p>설명 : 아래 단어를 드래그 해서 네모 박스 안에 순서대로 넣으세요.</p>
+    </div>
+    
+    <div class = "btn-group">
+        <button id = "checkBtn">정답 확인</button>
+        <button id = "nextBtn">다음 문제</button>
+        <span id = "msg"></span>
+    </div>
+
+    <div class = "container">
+        <h3>단어 보관함</h3>
+        <div class="box" id="sourceBox"></div>
+
+        <h3>정답 칸(여기로 드래그 하세요)</h3>
+        <div class="box" id="answerBox"></div>
+    </div>
+
+</body>
+</html>
